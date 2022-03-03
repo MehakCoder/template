@@ -1,16 +1,63 @@
 :root{
-    --baseColor : #6c757d;
+    --baseColor : #eeefee;
     --textColor: #232323;
     }
+
+*{
+    box-sizing: border-box;
+}    
 
 .container{
     border: 1px solid black;
 }
 
+body{
+    font-family: DM Sans;
+    color: #232323;
+}
+
 /* logobar */
- img{
+#logobar{
+    background-color: var(--baseColor);
+
+}
+ #logobar img{
     height: 1.5cm;
 }
+
+#logobar .Brand{
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--textColor);
+}
+#Menu{
+    background: var(--baseColor);
+}
+#Menu ul{
+    list-style: none;
+}
+#Menu ul li{
+    display: inline-block;
+    margin: 0 20px;
+    padding: 20px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    align-items: center;
+}
+#Menu ul li a{
+    color: var(--textColor);
+}
+#Menu ul li a:hover{
+        color: white;      
+}
+
+ #icon {
+       display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 
 
 
