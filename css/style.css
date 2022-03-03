@@ -1,7 +1,18 @@
+:root{
+    --baseColor : #6c757d;
+    --textColor: #232323;
+    }
+
 .container{
     border: 1px solid black;
 }
+
+/* logobar */
  img{
-     height: 1.5cm;
- }
+    height: 1.5cm;
+}
+
+
+
+
 
