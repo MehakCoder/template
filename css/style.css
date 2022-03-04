@@ -66,12 +66,11 @@ body{
     display: flex;
     text-align: center;
 }
-#icon a{
-    
-}
+
 /* banner */
-#banner{
-    background-image: ;
+.banner{
+    background-image: url(../image/background1.jpg);
+
 }
 
 
