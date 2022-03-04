@@ -68,9 +68,8 @@ body{
 }
 
 /* banner */
-.banner{
-    background-image: url(../image/background1.jpg);
-
+#banner img{
+    
 }
 
 
