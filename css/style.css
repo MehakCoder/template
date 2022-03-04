@@ -63,11 +63,14 @@ body{
 }
 #icon {
     font-size: 25px;
-    flex-wrap: nowrap;
     display: flex;
-    justify-content: center;
     text-align: center;
 }
+#icon a{
+    
+}
+/* banner */
+
 
 
  
