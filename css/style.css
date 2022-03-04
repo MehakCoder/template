@@ -2,11 +2,10 @@
     --baseColor : #eeefee;
     --textColor: #232323;
     }
-
-{
+*{
     box-sizing: border-box;
-}    
-
+}
+  
 .container{
     border: 1px solid black;
 }
@@ -14,12 +13,14 @@
 body{
     font-family: DM Sans;
     color: #232323;
+    background: #eeefee;
     
 }
 
 /* logobar */
 #logobar{
     background-color: var(--baseColor);
+    padding: 10px 0;
 
 }
  #logobar img{
@@ -30,10 +31,17 @@ body{
     font-size: 30px;
     text-decoration: none;
     color: var(--textColor);
+    
 }
 #Menu{
     background: var(--baseColor);
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 #Menu ul{
     list-style: none;
 }
@@ -50,14 +58,19 @@ body{
     color: var(--textColor);
 }
 #Menu ul li a:hover{
-        color: white;      
+        background-color: white; 
+        border: 5px solid white;                   
 }
-
- #icon {
-       display: flex;
+#icon {
+    font-size: 25px;
+    flex-wrap: nowrap;
+    display: flex;
     justify-content: center;
     text-align: center;
 }
+
+
+ 
 
 
 
