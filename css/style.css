@@ -7,22 +7,23 @@
 }
   
 .container{
-    border: 1px solid black;
+    border: 1px solid black;   
 }
 
 body{
     font-family: DM Sans;
     color: #232323;
     background: #eeefee;
-    
-    
+    margin: 0px;
+    padding: 0px;
+    height: 100px;  
+    position: relative;
 }
 
 /* logobar */
 #logobar{
     background-color: var(--baseColor);
-    padding: 10px 0;
-
+    padding: 10px 20px;
 }
  #logobar img{
     height: 1.5cm;
@@ -32,8 +33,9 @@ body{
     font-size: 30px;
     text-decoration: none;
     color: var(--textColor);
-    
 }
+/* logobar */
+
 #Menu{
     background: var(--baseColor);
     margin: auto;
@@ -41,6 +43,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 #Menu ul{
@@ -48,7 +51,7 @@ body{
 }
 #Menu ul li{
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 10px;
     padding: 20px 20px;
     font-weight: bold;
     font-size: 18px;
@@ -62,11 +65,28 @@ body{
         background-color: white; 
         border: 5px solid white;                   
 }
-#icon {
+#icon  {
     font-size: 25px;
     display: flex;
-    text-align: center;
+    text-align: center; 
 }
+#icon .fa{
+    display: block;
+    float: left;
+    
+}
+#icon a{
+    margin: 0px 20px;
+    padding: 10px 10px;
+    border:1px solid white;
+    background: #fff;
+    color: black;
+    border-radius: 10px;
+    height: 50%;
+    width: 50%;
+    text-decoration: none;
+}
+
 
 /* banner */
 .banner img{
