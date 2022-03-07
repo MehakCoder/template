@@ -131,9 +131,23 @@ p{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
+#Features {
+    text-align: left;
+}
 #Features span{
-
+        color: #777777;
+        font-weight: bold;
+}
+#Features h2{
+    font-size: 60.8px;
+}
+#Features p{
+    font-size: 17.8px;
+    color: #777777;
+}
+#Features .fa{
+        color: pink;
+        font-size: 40px;
 }
 
 
