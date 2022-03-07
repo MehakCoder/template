@@ -20,7 +20,10 @@ body{
     position: relative;
 }
 span{
-    font-size: 1px;
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
 }
 
 /* logobar */
@@ -96,9 +99,10 @@ span{
     background-image: url(../image/background1.jpg);
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: 50% 50%;
+    background-size: cover;
+    background-position: 50% 50%;
     color: #fff;
+    background-repeat ;
 }
 .banner span{
     font-size: 25px; 
@@ -119,13 +123,18 @@ span{
     padding: 0px 20px;
     border: 1px solid black;
     color: var(--textColor);
+    text-align: center;
 }
 /* image */
-img{
+#w50 img{
     border-radius: 10px;
     width: 90%;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#Features span{
+
 }
 
 
