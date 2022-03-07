@@ -180,10 +180,18 @@ p{
     margin-top: 20px;
 }  
 
-/* Card */
-.card img{
-     
+/* Goal */
+.goal p{
+    font-size: 17.6px;
 }
+.goal ul{
+    display: inline-block;
+}
+
+
+
+
+
 
 
 
