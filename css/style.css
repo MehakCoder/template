@@ -146,7 +146,7 @@ p{
     color: #777777;
 }
 #Features .fa{
-        color: pink;
+        color: #f6d4c5;
         font-size: 30px;
         background-color: #fff;
         border: 1px solid white;
@@ -154,6 +154,18 @@ p{
         border-radius: 10px;
         margin: 10px;
         text-align: center;
+}
+#Features .btn{
+        border: 1px solid #f6d4c5; 
+        background: #f6d4c5;
+        border-width: 5px;
+}
+#Features a{
+    color: black;
+    text-decoration: none;
+}
+#Features a:hover{
+    color: white;
 }
 .section{
      display: inline-block;
@@ -166,7 +178,9 @@ p{
     text-align: center;
     font-weight: 400;
     margin-top: 20px;
-}       
+}   
+
+
 
 
 
