@@ -6,21 +6,22 @@
     box-sizing: border-box;
 }
   
-.container{
-    border: 1px solid black; 
-}
-
 body{
     font-family: DM Sans;
     color: #232323;
     background: #eeefee;
     margin: 0px;
     padding: 0px;
-    height: auto;  
+    height: auto; 
+    width: 100%; 
     position: relative;
 }
+.container{
+    border: 1px solid black; 
+}
 span{
-    font-size: 20px;
+    font-size: 16px;
+    color: #777777;
 }
 p{
     font-size: 20px;
@@ -104,7 +105,7 @@ p{
 
 }
 .banner span{
-    font-size: 25px; 
+    font-weight: 400; 
 }
 .banner h2{
     font-size: 60px;
@@ -135,7 +136,6 @@ p{
     text-align: left;
 }
 #Features span{
-        color: #777777;
         font-weight: bold;
 }
 #Features h2{
@@ -146,7 +146,7 @@ p{
     color: #777777;
 }
 #Features .fa{
-        color: #f6d4c5;
+        color:pink;
         font-size: 30px;
         background-color: #fff;
         border: 1px solid white;
@@ -205,7 +205,130 @@ p{
 }
 
 /* Feature */
+#Feature h2{
+    text-align: center;
+    font-size: 50px;
+    margin: 30px;
+    }
+.servicebox2{
+    background :#fff;
+    position: relative;
+    border-radius: 10px;
+    height: fit-content;
+    display: flex;
+    overflow: hidden;
+    flex-flow: column nowrap; 
+    width: 32%;
+    margin-right: 15px;
+    margin-bottom: 32px;
+    float: left;
+    box-shadow: 0px 16px 32px 0px #0000000a;
+}
+.servicebox2:last-child{
+    margin-right: 0;
+}
+.servicebox2 img{
+         position: relative;
+         width: 100%;
+         object-fit: cover;
+         height: 225px;
+}
+.sb1-content{
+    background: #f9f9f9;
+    transition: all 0.3s; 
+    padding: 20px 20px ;  
+}
+.sb1-content span{
+    font-weight: 400;
+}
+.sb1-content h4{
+         font-weight: 800;
+}
+.sb1-content .icon{
+        background: #fff;
+        position: absolute;
+        bottom: 70px;
+        padding:20px 20px;
+        border-radius: 10px;
+        right: 20px;
+        filter: drop-shadow(0 0 35px rgba(0,0,0,.08));
+}
+.sb1-content .icon .fa{
+           font-size: larger;
+}  
 
+/* Digital */
+#digital{
+    background: black;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#Career{
+    display: flex;
+    padding: 64px;
+    background: #fff;
+    border-radius: 10px;
+    margin:0 16px;
+    overflow: hidden;
+}
+#Join span{
+       font-weight: 600;
+}
+
+#Join h6{
+    color: var(--textColor);
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#System {
+    background: #fff;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    display: flex;
+    padding: 16px 16px;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    margin: 20px;
+}
+
+#System .icon{
+    color: #777777;
+    display: flex;
+    font-size: 24px;
+    height: 30px;
+    align-items: center;
+    margin-top: 2px;
+    padding: 0 16px;
+}
+
+#System .icon p{
+    color: #777777;
+    padding-top: 3px;
+    margin: 15px;
+    font-size: 16px;
+}
+
+/* Team */
+#Team{
+    text-align: center;
+}
+#Team span{
+      font-weight: 600;
+      align-items: center;
+}
+
+
+
+
+    
 
 
 
