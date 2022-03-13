@@ -185,12 +185,37 @@ p{
      padding: 64px;
      background: #fff;
      border-radius: 10px;
-     margin:0 16px;
-     overflow: hidden;
+     margin-top: 20px;
+     margin-bottom: 70px;
+     height: 550px;
  }
  #App{
-     
- }
+     text-align: left;
+     padding: 48px;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+}
+#App span{
+      font-weight: 500;
+      font-size: 17px;
+}
+#App h2{
+        font-weight: 800;
+        font-size: 60px;
+}
+#Mobile{
+       text-align: right;
+       padding: 32px;
+}
+#Mobile img{
+         width: 80%;
+         height: 100%;
+         object-fit: cover;
+         border: 10px;
+         display: block;
+
+}
 
 /* Goal */
 #Goal h2{
@@ -330,11 +355,42 @@ p{
 
 /* Team */
 #Team{
-    text-align: center;
+    display: flex;
+    padding: 64px;
+    border-radius: 10px;
+    margin:0 16px;
+    overflow: hidden; 
 }
-#Team span{
+#Expert{
+    align-items: center;
+}
+#Expert p{
+    font-size: 17.6px;
+    font-weight: 400;
+    color: #777777;
+}
+#Expert h2{
+      font-size: 60px;
       font-weight: 600;
-      align-items: center;
+      margin-bottom: 20px;
+}
+
+#Team-Image{
+    background: white;
+    border-radius: 10px;
+    padding-top: 48px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    margin: 20px;
+}
+ #Team-Image img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 50%;
 }
 
 
