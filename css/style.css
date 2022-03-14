@@ -403,12 +403,13 @@ p{
 }
 
 /* Brand-image */
-#Brand-image img{
-       border-radius: 16px;
-       height: 400px;
-       object-fit: cover;
-       width: 100%;
+#Brand .Brand-image{
+    border-radius: 16px;
+    height: 500px;
+    width: 100px;
+    object-fit: cover;
 }
+
 
 
 
