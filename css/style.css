@@ -7,17 +7,20 @@
 }
   
 body{
-    font-family: DM Sans;
+    font-family:'DM Sans', sans-serif;
     color: #232323;
     background: #eeefee;
     margin: 0px;
     padding: 0px;
-    height: auto; 
+    height:100%; 
     width: 100%; 
     position: relative;
 }
 .container{
-    border: 1px solid black; 
+    border: 1px solid black;
+    font-family:'DM Sans', sans-serif; 
+    height: 100%;
+    width: 100%;
 }
 span{
     font-size: 16px;
@@ -102,6 +105,8 @@ p{
     background-position: 50% 50%;
     color: #fff;
     background-repeat:no-repeat;
+    height: 500px;
+    width: 100%;
 
 }
 .banner span{
@@ -398,17 +403,54 @@ p{
     padding: 25px;
     text-align: center;
 }
-#Position span{
-        
-}
+
 
 /* Brand-image */
-#Brand .Brand-image{
-    border-radius: 16px;
-    height: 500px;
-    width: 100px;
-    object-fit: cover;
+#client{
+    margin-bottom: 60px;
 }
+.Brand-image{
+    display: block;  
+}
+.Brand-image img{
+     border-radius: 16px;
+     height: 500px;
+     object-fit: cover;
+     width: 100%;
+}
+.service{
+    background: #fff;
+    position: absolute;
+    display: flex;
+    padding: 16px 32px;
+    width: 90%;
+    margin-left: 30px;
+    margin-top: -48px;
+    border-radius: 16px;
+    justify-content: space-between;
+    z-index: 4;  
+}
+
+.service #Web h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.service #btn{
+    margin: 10px 10px;
+}
+.service #btn a{
+    background: #232323;
+    border: 1px solid #232323;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    border-width: 5px;
+    padding: 16px 20px;
+    margin: 10px 10px;
+    transition: all 0.3s ease-in-out;
+}
+
 
 
 
