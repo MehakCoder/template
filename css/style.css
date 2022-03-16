@@ -19,8 +19,6 @@ body{
 .container{
     border: 1px solid black;
     font-family:'DM Sans', sans-serif; 
-    height: 100%;
-    width: 100%;
 }
 span{
     font-size: 16px;
@@ -28,15 +26,22 @@ span{
 }
 p{
     font-size: 20px;
+    line-height: 1.5;
 }
+
 
 /* logobar */
 #logobar{
     background-color: var(--baseColor);
     padding: 10px 20px;
+    margin-right: 80px;
+    margin-top: 20px;
 }
  #logobar img{
     height: 1.5cm;
+}
+#logobar a{
+    margin-right: 10px;
 }
 
 #logobar .Brand{
@@ -44,84 +49,96 @@ p{
     text-decoration: none;
     color: var(--textColor);
 }
-/* logobar */
+/* Menu */
 
 #Menu{
     background: var(--baseColor);
-    margin: auto;
-    height: 100%;
+    margin-left: 80%;
+    height: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     z-index: 1;
 }
 
-#Menu ul{
+ #Menu li{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    padding: 15px 15px;
+    font-weight: 500;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
     list-style: none;
 }
-#Menu ul li{
-    display: inline-block;
-    margin: 0 10px;
-    padding: 20px 20px;
-    font-weight: bold;
-    font-size: 18px;
-    position: relative;
-    align-items: center;
-}
-#Menu ul li a{
+ #Menu li a{
     color: var(--textColor);
 }
-#Menu ul li a:hover{
+ #Menu li a:hover{
         background-color: white; 
         border: 5px solid white; 
-        text-decoration: none;                  
+        text-decoration: none;             
 }
 #icon  {
+    margin-left: 90%;
     font-size: 25px;
+    flex-wrap: nowrap;
     display: flex;
-    text-align: center; 
+    justify-content: center;
+    text-align: center;
 }
 #icon .fa{
-    display: block;
-    align-items: center; 
+    color:black;
+    font-size: 22.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background: white;
+    margin: 0 4.8px;
+    border-radius: 10px; 
+    
 }
 #icon a{
-    margin: 0px 20px;
-    padding: 10px 10px;
-    border:1px solid white;
-    background: #fff;
-    color: black;
-    border-radius: 10px;
-    height: 50%;
-    width: 50%;
     text-decoration: none;
 }
 
 
 /* banner */
-.banner{
+#banner{
     background-image: url(../image/background1.jpg);
     background-size:cover;
     background-position: 50% 50%;
-    color: #fff;
     background-repeat:no-repeat;
+    color: black;
     height: 500px;
     width: 100%;
-
 }
-.banner span{
-    font-weight: 400; 
+#banner .inner{
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+    padding-top: 20%;
 }
-.banner h2{
+#banner span{
+    font-size: 17.6px;
+    font-weight: bold; 
+    color:  #ffffff;
+}
+#banner h2{
     font-size: 60px;
     font-weight: bold;
+    color: #ffffff;
 }
-.banner p{
+#banner p{
     font-size: 20px;
-    color: #bbb;
+    color: black;
     font-weight: 100;  
 }
-.banner a{
+#banner a{
     font-size: 15px;
     text-decoration: none;
     font-weight: bold;
@@ -130,6 +147,13 @@ p{
     color: var(--textColor);
     text-align: center;
 }
+#banner .btn{
+    color: #bbb;
+    margin-left: -9.6px;
+    margin-right: -9.6px;
+    border-width: 2px;
+}
+
 /* image */
 #w50 img{
     border-radius: 10px;
@@ -450,6 +474,72 @@ p{
     margin: 10px 10px;
     transition: all 0.3s ease-in-out;
 }
+/* Testimonial */
+#testimonials{
+    padding-top:80px;
+    padding-bottom: 112px;
+    background: #31363b; 
+
+}
+.Section-hd{
+    text-align:left;
+    margin-bottom: 48px;  
+}
+.Section-hd p{
+    color: #bbbbbb;
+    font-size: 17.6px;
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.Section-hd h3{
+         color: #ffffff;
+         font-size: 60.8px;
+         margin-bottom: 8px;
+}
+.testimonial {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+}
+.testimonial p{
+        color: #777777;
+        font-size: 25px;
+        text-align: left;
+        font-weight: 400;
+}
+.testimonial i.fa-quote-right{
+    position: absolute;
+    top: -56px;
+    right: 0;
+    color: #777777;
+    font-size: 56px;
+    
+}
+.testimonial img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin: auto;
+    margin-right: 16px;
+    border-radius: 50%;
+}
+.testimonial h5{
+    color: #31363b;
+    font-weight: bold;
+    display: block;
+    font-size: 25.6px;
+    text-align: left;
+    
+}
+.testimonial h6{
+    color: #777777;
+    font-weight: 400;
+    font-size: 17.6px;
+    text-align: left;
+}
+
+
 
 
 

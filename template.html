@@ -14,43 +14,51 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-3" id="logobar">
-                <a href="logo"><img src="image/logo.png" alt=""></a>
-                <span><a class="Brand" href="mobrise">SoftwareM4</a></span>
-            </div>
-
-            <div class="col-9" id="Menu">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-                <div id="icon">
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-instagram"></i></a>
+    <div id="logobar">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <a href="logo"><img src="image/logo.png" alt=""></a>
+                    <span><a class="Brand" href="mobrise">SoftwareM4</a></span>
                 </div>
+
+                <div class="col-6">
+                    <ul id="Menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <div id="icon">
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
     <!-- menu the end -->
-    <div class="container">
-        <div class="row">
+    <div id="banner">
+        <div class="container">
             <div class="col-12">
-                <div class="banner">
+                <div class="inner">
                     <span>Developer Company</span>
                     <h2>Software App</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan porttitor egestas fermentum
                         nulla.
                     </p>
+                </div>
+                <div class="btn">
                     <a href="btn">Our Services</a>
                     <a href="btn">Learn More</a>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- banner the end -->
     <div class="container">
@@ -298,91 +306,106 @@
         </div>
     </div>
     <!--Brand the end -->
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div id="Testimonials">
-                    <span>Testimonials</span>
-                    <h2>Our Client Feedbacks</h2>
-                </div>
-                <div id="testimonials1">
-                    <i class="fa fa-quote-right"></i>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae curabitur libero felis
-                        ullamcorper.</p>
-                    <img src="image/team1.jpg" alt="">
-                    <span name="Team-Member">John Smith</span>
-                    <span name="Team-Desigation">Programmer</span>
-                </div>
-                <div id="testimonials2">
-                    <i class="fa fa-quote-right"></i>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae curabitur libero felis
-                        ullamcorper.</p>
-                    <img src="image/team2.jpg" alt="">
-                    <span name="Team-Member">Sarah Palmer</span>
-                    <span name="Team-Desigation">Manager</span>
-                </div>
-                <div id="testimonials3">
-                    <i class="fa fa-quote-right"></i>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae curabitur libero felis
-                        ullamcorper.</p>
-                    <img src="image/team3.jpg" alt="">
-                    <span name="Team-Member">Adam Swift</span>
-                    <span name="Team-Desigation">Analyst</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonials the end -->
-    <div class="container">
-        <div class="row">
-            <div class="col-12" id="Action">
-                <h2>View in Action</h2>
-                <span>Background image</span>
-                <i class="fa fa-play-circle"></i>
-            </div>
-        </div>
-    </div>
-    <!-- Action the end -->
-    <div class="container">
-        <form>
-            <span>Estimate For Projects</span>
-            <h2>Share Work Details</h2>
-            <div class="form-row">
-                <div class="col-4">
-                    <label for="validationDefault01">First name</label>
-                    <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value=""
-                        required>
-                </div>
-                <div class="col-4">
-                    <label for="validationDefaultUsername">Username</label>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                        </div>
-                        <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username"
-                            aria-describedby="inputGroupPrepend2" required>
+    <div id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="Section-hd">
+                        <p>Testimonials</p>
+                        <h3>Our Client Feedbacks</h3>
                     </div>
                 </div>
+            </div>
+            <div class="row">
                 <div class="col-4">
-                    <label for="validationDefault05">Subject</label>
-                    <input type="text" class="form-control" id="validationDefault05" placeholder="Subject" required>
+                    <div class="testimonial">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae curabitur libero felis
+                            ullamcorper.</p>
+                            <i class="fa fa-quote-right"></i>
+                           <img src="image/team1.jpg" alt="">
+                        <h5>John Smith</h5>
+                        <h6>Programmer</h6>
+                    </div>
                 </div>
             </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Work Detail</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div class="row">
+                <div class="col-4">
+                    <div class="testimonial">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae curabitur libero felis
+                            ullamcorper.</p>
+                            <i class="fa fa-quote-right"></i>
+                        <img src="image/team2.jpg" alt="">
+                        <h5>Sarah Palmer</h5>
+                        <h6>Manager</h6>
+                    </div>
+                </div>
             </div>
-            <button type="submit" class="btn btn-primary">Subscribe Now</button>
-        </form>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <span><i class="fa fa-copyright">Copyright 2025 Mobirise - All Rights Reserved</i></span>
+            <div class="row">
+                <div class="col-4">
+                    <div class="testimonial">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae curabitur libero felis
+                            ullamcorper.</p>
+                            <i class="fa fa-quote-right"></i>
+                        <img src="image/team3.jpg" alt="">
+                        <h5>Adam Swift</h5>
+                        <h6>Analyst</h6>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Testimonials the end -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12" id="Action">
+                    <h2>View in Action</h2>
+                    <span>Background image</span>
+                    <i class="fa fa-play-circle"></i>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- Form the end -->
+        <!-- Action the end -->
+        <div class="container">
+            <form>
+                <span>Estimate For Projects</span>
+                <h2>Share Work Details</h2>
+                <div class="form-row">
+                    <div class="col-4">
+                        <label for="validationDefault01">First name</label>
+                        <input type="text" class="form-control" id="validationDefault01" placeholder="First name"
+                            value="" required>
+                    </div>
+                    <div class="col-4">
+                        <label for="validationDefaultUsername">Username</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                            </div>
+                            <input type="text" class="form-control" id="validationDefaultUsername"
+                                placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <label for="validationDefault05">Subject</label>
+                        <input type="text" class="form-control" id="validationDefault05" placeholder="Subject" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Work Detail</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Subscribe Now</button>
+            </form>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <span><i class="fa fa-copyright">Copyright 2025 Mobirise - All Rights Reserved</i></span>
+                </div>
+            </div>
+        </div>
+        <!-- Form the end -->
 </body>
 
 </html>
