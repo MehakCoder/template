@@ -16,10 +16,10 @@ body{
     width: 100%; 
     position: relative;
 }
-.container{
+/* .container{
     border: 1px solid black;
     font-family:'DM Sans', sans-serif; 
-}
+} */
 span{
     font-size: 16px;
     color: #777777;
@@ -479,7 +479,6 @@ p{
     padding-top:80px;
     padding-bottom: 112px;
     background: #31363b; 
-
 }
 .Section-hd{
     text-align:left;
@@ -500,7 +499,7 @@ p{
 .testimonial {
     background: #ffffff;
     border-radius: 10px;
-    padding: 40px;
+    padding: 32px;
 }
 .testimonial p{
         color: #777777;
@@ -538,6 +537,7 @@ p{
     font-size: 17.6px;
     text-align: left;
 }
+/* Action */
 
 
 
