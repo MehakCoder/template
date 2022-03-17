@@ -509,19 +509,26 @@ p{
 }
 .testimonial i.fa-quote-right{
     position: absolute;
-    top: -56px;
-    right: 0;
+    right: 0px;
     color: #777777;
     font-size: 56px;
+    top: -56px;
     
 }
 .testimonial img{
     width: 65px;
     height: 65px;
     object-fit: cover;
-    margin: auto;
     margin-right: 16px;
     border-radius: 50%;
+}
+.testimonial #right{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.testimonial .post{
+         line-break: 1.5;
 }
 .testimonial h5{
     color: #31363b;
@@ -529,7 +536,7 @@ p{
     display: block;
     font-size: 25.6px;
     text-align: left;
-    
+      
 }
 .testimonial h6{
     color: #777777;
@@ -542,6 +549,7 @@ p{
     padding-top: 80px;
     padding-bottom: 112px;
     background: #dce8eb;
+    
 }
 #Action{
     text-align: center;
@@ -584,10 +592,72 @@ p{
     text-decoration: none;
 }
 /* Form */
+.form{
+    background: #dce8eb;
+    padding: 96px 64px;
+    border-radius: 10px;
+    margin: 70px 0 16px;
+}
+.form #Projects{
+    text-align: left;
+}
+.form #Projects span{
+         color: #777777;
+         font-size: 17.6px;
+         line-height: 1.5;
+         font-weight: 400;
+}
+.form #Projects h2{
+         font-size: 49.6px;
+         margin-bottom: 60px;
+         font-weight: 500;
+}
 
-
-
-
+.form .form-row{
+    font-size: large;
+    text-align: left;
+    border-radius: 10px;
+}
+.form .form-group{
+    font-size: large;
+    text-align: left;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 180px;
+}
+.from .from-control{
+height: 180px;
+min-height: 48px;
+}
+.button .btn{
+    background-color: black;
+    border-color: black;
+    text-align: right;
+    display: inline;
+    padding: 12px 28px;
+    min-height: 48px;
+    border-radius: 2px;
+}
+/* Copyright */
+.Footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #14191e;
+    overflow: hidden;
+}
+.Footer #copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: start;
+}
+.Footer #copyright span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif ;
+}
 
 
 
