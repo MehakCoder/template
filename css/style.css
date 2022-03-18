@@ -28,6 +28,9 @@ p{
     font-size: 20px;
     line-height: 1.5;
 }
+img{
+    display: block;
+}
 
 
 /* logobar */
@@ -155,14 +158,15 @@ p{
 }
 
 /* image */
-#w50 img{
+#sol img{
     border-radius: 10px;
     width: 90%;
-    margin-top: 10px;
+    margin-top: 60px;
     margin-bottom: 10px;
 }
 #Features {
     text-align: left;
+    margin-top: 60px;
 }
 #Features span{
         font-weight: bold;
@@ -247,6 +251,9 @@ p{
 }
 
 /* Goal */
+.artical{
+    background: #fff;
+}
 #Goal h2{
     font-size: 52px;
 }
@@ -271,38 +278,37 @@ p{
 }
 
 /* Feature */
+#Feature{
+    margin-bottom: 60px;
+}
 #Feature h2{
     text-align: center;
     font-size: 50px;
     margin: 30px;
     }
-.servicebox2{
-    background :#fff;
+#servicebox2{
     position: relative;
     border-radius: 10px;
     height: fit-content;
     display: flex;
     overflow: hidden;
-    flex-flow: column nowrap; 
-    width: 32%;
-    margin-right: 15px;
-    margin-bottom: 32px;
-    float: left;
+    flex-flow: column nowrap;
     box-shadow: 0px 16px 32px 0px #0000000a;
 }
-.servicebox2:last-child{
-    margin-right: 0;
-}
-.servicebox2 img{
-         position: relative;
-         width: 100%;
-         object-fit: cover;
-         height: 225px;
+
+#servicebox2 img{
+    position: relative;
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
 }
 .sb1-content{
-    background: #f9f9f9;
-    transition: all 0.3s; 
-    padding: 20px 20px ;  
+    background: #ffffff;
+    transition: all 0.3s;
+    border-top: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 32px 40px;  
 }
 .sb1-content span{
     font-weight: 400;
@@ -311,13 +317,15 @@ p{
          font-weight: 800;
 }
 .sb1-content .icon{
-        background: #fff;
-        position: absolute;
-        bottom: 70px;
-        padding:20px 20px;
-        border-radius: 10px;
-        right: 20px;
-        filter: drop-shadow(0 0 35px rgba(0,0,0,.08));
+    position: absolute;
+    bottom: 85px;
+    font-size: 22.4px;
+    right: 32px;
+    padding: 19.2px;
+    box-shadow: 0px 16px 32px 0px #0000000a;
+    background: #ffffff;
+    border-radius: 10px;
+    color: #1b2026;
 }
 .sb1-content .icon .fa{
            font-size: larger;
@@ -384,36 +392,29 @@ p{
 
 /* Team */
 #Team{
-    display: flex;
-    padding: 64px;
-    border-radius: 10px;
-    margin:0 16px;
-    overflow: hidden; 
-    width: 100%;
-}
-#Expert{
-    align-items: center;
+    text-align: center;    
+    line-height: 1.5;
+    margin-bottom: 48px;
+    margin-top: 40px;
 }
 #Expert p{
     font-size: 17.6px;
     font-weight: 400;
     color: #777777;
+    margin-bottom: 5px;
 }
 #Expert h2{
       font-size: 60px;
       font-weight: 600;
-      margin: 16px 16px;
+      margin: 16px;
+      margin-bottom: 8px;
+      text-align: center;
 }
-
-.Team-Image{
-    background: white;
+#Team-Image{
+    background: #ffffff;
     border-radius: 10px;
-    padding-top: 48px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    font-weight: 400;
-    margin: 20px;
+    padding: 48px;
+    margin-bottom: 25px;
 }
   #Image img{
     width: 150px;
@@ -421,12 +422,11 @@ p{
     object-fit: cover;
     margin: auto;
     border-radius: 50%;
-    display: block;
-}
 #Position{
     padding: 25px;
     text-align: center;
 }
+
 
 
 /* Brand-image */
@@ -549,7 +549,6 @@ p{
     padding-top: 80px;
     padding-bottom: 112px;
     background: #dce8eb;
-    
 }
 #Action{
     text-align: center;
