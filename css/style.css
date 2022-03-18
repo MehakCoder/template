@@ -415,8 +415,12 @@ img{
     border-radius: 10px;
     padding: 48px;
     margin-bottom: 25px;
+    margin-left: 20px;
 }
-  #Image img{
+#Team-Image :last-child{
+    margin-left: 0px;
+}
+ #Image img{
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -426,6 +430,10 @@ img{
 #Position{
     padding: 25px;
     text-align: center;
+}
+#Position h5{
+    font-size: 25.6px;
+    line-height: 1.5;
 }
 
 
