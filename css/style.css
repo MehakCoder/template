@@ -28,9 +28,7 @@ p{
     font-size: 20px;
     line-height: 1.5;
 }
-img{
-    display: block;
-}
+
 
 
 /* logobar */
@@ -53,6 +51,7 @@ img{
     color: var(--textColor);
 }
 /* Menu */
+
 #Menu{
     background: var(--baseColor);
     margin-left: 80%;
