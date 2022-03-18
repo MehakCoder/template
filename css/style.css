@@ -422,10 +422,12 @@ img{
     object-fit: cover;
     margin: auto;
     border-radius: 50%;
+  }
 #Position{
     padding: 25px;
     text-align: center;
 }
+
 
 
 
