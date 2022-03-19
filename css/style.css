@@ -211,41 +211,46 @@ p{
     margin-top: 20px;
 } 
  /*card  */
+ #Download{
+    padding-top: 112px;
+    padding-bottom: 96px;
+    background-color: #efefef;
+ }
  #Card{
-     display: flex;
-     padding: 64px;
-     background: #fff;
-     border-radius: 10px;
-     margin-top: 20px;
-     margin-bottom: 70px;
-     height: 550px;
+    background: #ffffff;
+    padding: 0px 0px;
+    margin: 0px;
+    margin-top: 16px;
+    border-radius: 10px;
+    display: flex;
  }
  #App{
      text-align: left;
-     padding: 48px;
+     padding: 48px 60px;
      position: relative;
-     display: flex;
-     flex-direction: column;
-}
-#App span{
-      font-weight: 500;
-      font-size: 17px;
+     
 }
 #App h2{
+      font-weight: 500;
+      font-size: 17px;
+      color: #777777;
+}
+#App h3{
         font-weight: 800;
-        font-size: 60px;
+        font-size: 60.8px;
 }
 #Mobile{
        text-align: right;
-       padding: 32px;
+       margin-left: -66px;
 }
 #Mobile img{
-         width: 80%;
-         height: 100%;
-         object-fit: cover;
-         border: 10px;
-         display: block;
-
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transform: scale(1.2);
+    transform-origin: bottom;
 }
 
 /* Goal */
