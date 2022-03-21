@@ -165,12 +165,12 @@ p{
     padding: 1rem 2.6rem;
     border-radius: 4px;
     color: #1b2026 ;
-    background-color: #f7d9c4;
+    background-color: white;
 }
-.btn-learn{
+ #soft .btn-learn{
     padding: 1rem 2.6rem;
     border-radius: 4px;
-    color: #1b2026 ;
+    color: #f7d9c4 ;
 }
 .btn-pink,.btn-learn{
     font-weight: 600;
@@ -180,9 +180,6 @@ p{
 #soft a:hover.btn-pink {
     background-color: #eeefee;
 }
-
-
-
 
 
 /* Feature */
