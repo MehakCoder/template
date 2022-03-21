@@ -146,7 +146,7 @@ p{
     font-weight: 100;  
 }
 #soft a{
-    font-size: 15px;
+    font-size: 16px;
     text-decoration: none;
     font-weight: bold;
     padding: 0px 20px;
@@ -154,6 +154,7 @@ p{
     color: var(--textColor);
     text-align: center;
 }
+
 #soft .btn{
     color: #bbb;
     margin-left: -9.6px;
@@ -177,9 +178,21 @@ p{
     letter-spacing: 0px;
     transition: all 0.3s ease-in-out;
 }
-#soft.btn-pink:hover{
+.btn-pink a:hover{
     background-color: #eeefee;
 }
+#soft.btn-pink:hover{
+    display: block;
+	content: "";
+	height: 99%;
+	width: 99%;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	border: 1px solid var(--themeColor);
+	transition:all 0.4s ;
+}
+
 
 
 
