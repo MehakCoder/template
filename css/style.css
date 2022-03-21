@@ -166,7 +166,6 @@ p{
     border-radius: 4px;
     color: #1b2026 ;
     background-color: #f7d9c4;
-    border-color: #f7d9c4;
 }
 .btn-learn{
     padding: 1rem 2.6rem;
@@ -178,20 +177,10 @@ p{
     letter-spacing: 0px;
     transition: all 0.3s ease-in-out;
 }
-.btn-pink a:hover{
+#soft a:hover.btn-pink {
     background-color: #eeefee;
 }
-#soft.btn-pink:hover{
-    display: block;
-	content: "";
-	height: 99%;
-	width: 99%;
-	position: absolute;
-	top: 4px;
-	left: 4px;
-	border: 1px solid var(--themeColor);
-	transition:all 0.4s ;
-}
+
 
 
 
