@@ -159,10 +159,11 @@ p{
     margin-left: -9.6px;
     margin-right: -9.6px;
     border-width: 2px;
+}
+#soft .btn-pink{
     padding: 1rem 2.6rem;
     border-radius: 4px;
 }
-
 
 
 /* Feature */
