@@ -130,6 +130,9 @@ p{
    top:0;
    bottom: 0; 
 } 
+#soft {
+    margin-bottom: 70px ;
+}
  #soft span{
     font-size: 17.6px;
     font-weight: bold; 
@@ -175,7 +178,8 @@ p{
  #soft .btn-learn{
     padding: 1rem 2.6rem;
     border-radius: 4px;
-    color: #f7d9c4 ;
+    color: #eeefee;
+    border-color: #bbbbbb;
 }
 .btn-pink,.btn-learn{
     font-weight: 600;
