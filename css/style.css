@@ -475,7 +475,11 @@ p{
     font-size: 25.6px;
     line-height: 1.5;
 }
-
+#social{
+    color: #777777;
+    text-align: center;
+    padding-top: 32px;
+}
 
 
 /* Brand-image */
