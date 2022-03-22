@@ -449,10 +449,9 @@ p{
       margin-bottom: 8px;
       text-align: center;
 }
-
 .card-wrap{
     background: #ffffff;
-    border: 1px solid black;
+    border: 1px solid #ffffff;
     border-radius: 10px;
     height: 350px; 
     position: relative;
@@ -479,6 +478,8 @@ p{
     color: #777777;
     text-align: center;
     padding-top: 32px;
+    font-size: 20px;
+    font-weight: 500;
 }
 #social .social-iteam {
     display: inline-block;
@@ -489,8 +490,13 @@ p{
     padding: 12.8px;
     background: #efefef;
     transition: all 0.3s;
+    color: #121212;
 }
 
+#social .social-iteam:hover{
+    background: #f7d9c4;
+    color: white ;
+}
 
 /* Brand-image */
 .client-section{
