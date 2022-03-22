@@ -480,6 +480,16 @@ p{
     text-align: center;
     padding-top: 32px;
 }
+#social .social-iteam {
+    display: inline-block;
+    text-align: center;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+    margin-right: 9.6px;
+    padding: 12.8px;
+    background: #efefef;
+    transition: all 0.3s;
+}
 
 
 /* Brand-image */
