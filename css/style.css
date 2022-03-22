@@ -16,10 +16,6 @@ body{
     width: 100%; 
     position: relative;
 }
-/* .container{
-    border: 1px solid black;
-    font-family:'DM Sans', sans-serif; 
-} */
 span{
     font-size: 16px;
     color: #777777;
@@ -454,23 +450,21 @@ p{
       text-align: center;
 }
 
-
-
 .card-wrap{
     background: #ffffff;
     border: 1px solid black;
     border-radius: 10px;
-    height: 350px;
-   
+    height: 350px; 
     position: relative;
-   
+    padding-top: 48px;  
 }
 
  #Image img{
-    width: auto;
+    width: 150px;
     height: 150px;
     object-fit: cover;
-    margin: auto;
+    margin-right: 45px;
+    margin-left: 45px;
     border-radius: 50%;
   }
 #Position{
