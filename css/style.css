@@ -455,7 +455,8 @@ p{
     border-radius: 10px;
     height: 350px; 
     position: relative;
-    padding-top: 48px;  
+    padding-top: 48px;
+    margin-bottom: 60px;
 }
 
  #Image img{
