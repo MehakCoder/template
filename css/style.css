@@ -732,7 +732,12 @@ min-height: 48px;
     font-family: 'DM Sans', sans-serif ;
 }
 /* Footer */
-@media 
+@media screen and (max-width:992px) {
+    .container{
+        flex-wrap: wrap;
+    }
+    
+}
 
 
 
