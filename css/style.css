@@ -348,10 +348,9 @@ section, .container {
     font-size: 25.6px;
 }
 #Goal p{
-    font-size: 17.8px;
+    font-size: 18px;
     color: #777777;
 }
-
 #Goal ul{
     list-style: none;
     font-size: 25px;
