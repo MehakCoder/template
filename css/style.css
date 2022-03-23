@@ -366,10 +366,14 @@ section, .container {
 }
 
 /* Feature */
-#Feature{
-    margin-bottom: 60px;
+.Feature{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: #efefef;
+    margin-left: 75px;
 }
-#Feature h2{
+
+#core h2{
     text-align: center;
     font-size: 50px;
     margin: 30px;
