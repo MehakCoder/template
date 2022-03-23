@@ -27,6 +27,15 @@ p{
 .container{
     margin-left: 0;
 }
+section {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section, .container {
+    position: relative;
+    word-wrap: break-word;
+}
 
 
 /* logobar */
@@ -224,17 +233,15 @@ p{
 .solution{
     padding-top: 96px;
     padding-bottom: 16px;
+    text-align: left;
+    margin-left: 75px;
 }
 #sol img{
     border-radius: 10px;
     width: 90%;
-    margin-top: 60px;
     margin-bottom: 10px;
 }
-#Features {
-    text-align: left;
-    margin-top: 60px;
-}
+
 #Features span{
         font-weight: bold;
 }
@@ -244,12 +251,11 @@ p{
 #Features p{
     font-size: 17.8px;
     color: #777777;
+    margin-top:32px;
 }
 #Features .fa{
         color:pink;
         font-size: 30px;
-        background-color: #fff;
-        border: 1px solid white;
         border-width: 30px;
         border-radius: 10px;
         margin: 10px;
@@ -268,9 +274,15 @@ p{
     color: white;
 }
 .section{
-     display: inline-block;
-     margin: 10px 10px;
-    padding: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-right: 1.5rem;
+    display: inline-block;
+    width: 150px;
+    padding: 1.8rem 2.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .section p{
@@ -284,6 +296,7 @@ p{
     padding-top: 112px;
     padding-bottom: 96px;
     background-color: #efefef;
+    margin-left: 75px;
  }
  #Card{
     background: #ffffff;
@@ -325,11 +338,15 @@ p{
 /* Goal */
 .artical{
     background: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#Goal{
+    margin-left: 75px;
 }
 #Goal h2{
-    font-size: 52px;
+    font-size: 25.6px;
 }
-
 #Goal p{
     font-size: 17.8px;
     color: #777777;
@@ -771,9 +788,10 @@ min-height: 48px;
         padding-left: 16px;
         padding-right: 16px;
        }
-       .row > [class*=col] {
-        padding-left: 16px;
-        padding-right: 16px;
+       .row {
+        margin-left: -16px;
+        margin-right: -16px;
+       }
 
 }
 
