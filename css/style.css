@@ -11,7 +11,7 @@ body{
     color: #232323;
     background: #eeefee;
     position: relative;
-    overflow-x: hidden;
+    
 }
 span{
     font-size: 16px;
@@ -31,6 +31,7 @@ p{
     padding-top: 1.6px;
     align-items: center;
     position: sticky;
+   
 }
 #Header{
     min-height: 70px;
@@ -144,6 +145,7 @@ p{
     width: 100%;
     padding-top: 140px;
     padding-bottom: 160px;
+    overflow-x: hidden;
 }
 #banner:before{
     background: rgba(0,0,0,0.8);
@@ -221,7 +223,8 @@ p{
 .solution{
     padding-top: 96px;
     padding-bottom: 16px;
-    text-align: left;   
+    text-align: left; 
+      
 }
 #sol img{
     border-radius: 10px;
@@ -287,6 +290,7 @@ p{
     padding-top: 112px;
     padding-bottom: 96px;
     background-color: #efefef;
+    
  }
  #Card{
     background: #ffffff;
@@ -472,12 +476,11 @@ p{
     padding-bottom: 80px;
     background: #efefef;
     align-items: center;
+    overflow-x: hidden;
 }
 #Team{
     text-align: center;    
     line-height: 1.5;
-    margin-bottom: 48px;
-    margin-top: 40px;
 }
 #Expert p{
     font-size: 17.6px;
@@ -546,6 +549,7 @@ p{
     padding-top: 0px;
     padding-bottom: 96px;
     background-color: #efefef;
+    overflow-x: hidden;
 }
 
 #client{
@@ -597,6 +601,7 @@ p{
     padding-top:80px;
     padding-bottom: 112px;
     background: #31363b;
+    overflow: hidden;
 }
 .Section-hd{
     text-align:left;
@@ -668,6 +673,7 @@ p{
     padding-top: 80px;
     padding-bottom: 112px;
     background: #dce8eb;
+    overflow: hidden;
     
 }
 #Action{
@@ -715,6 +721,7 @@ p{
     padding-top: 90px;
     padding-bottom: 120px;
     background-color: #ffffff;
+    
 }
 .form{
     background: #dce8eb;
