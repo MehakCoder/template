@@ -75,6 +75,9 @@ p{
     align-items: center;
     margin-left: 130px;    
 }
+#MenuBar #menu{
+      flex-wrap: wrap;
+}
 
  #Menu li{
     margin: auto;
