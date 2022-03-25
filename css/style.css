@@ -238,7 +238,13 @@ p{
 #Features .btn{
         border: 1px solid #f6d4c5; 
         background: #f6d4c5;
-        border-width: 5px;
+        margin-left: -9.6px;
+        margin-right: -9.6px;
+        padding: 1rem 2.6rem;
+        border-radius: 4px;
+        font-weight: 600;
+        letter-spacing: 0px;
+        transition: all 0.3s ease-in-out;
 }
 #Features a{
     color: black;
@@ -247,25 +253,29 @@ p{
 #Features a:hover{
     color: white;
 }
-.icon-wrap{
+#Features.icon-wrap{
     background: #ffffff;
     border-radius: 10px;
-    display: flex;
-    margin-right: 0;
+    margin-right: 1.5rem;
+}
+.icon-wrap .fa{
+    color:pink;
+    font-size: 40px; 
+    background: #ffffff;
+    border-radius: 10px;
+    display:flex;
+    margin-right: 1.5rem;
     width: 150px;
     padding: 1.8rem 2.5rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.icon-wrap .fa{
-    color:pink;
-    font-size: 40px; 
-}
-.icon-wrap p{
+.icon-wrap #type{
     font-size: 16px;
     text-align: center;
     font-weight: 400;
+    margin-top: 20px;
 } 
  /*card  */
  #Download{
