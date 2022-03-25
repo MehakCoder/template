@@ -217,13 +217,11 @@ p{
 .solution{
     padding-top: 96px;
     padding-bottom: 16px;
-    text-align: left;
-    
+    text-align: left;   
 }
 #sol img{
     border-radius: 10px;
     width: 90%;
-    margin-bottom: 10px;
 }
 
 #Features span{
@@ -237,14 +235,6 @@ p{
     color: #777777;
     margin-top:32px;
 }
-#Features .fa{
-        color:pink;
-        font-size: 30px;
-        border-width: 30px;
-        border-radius: 10px;
-        margin: 10px;
-        text-align: center;
-}
 #Features .btn{
         border: 1px solid #f6d4c5; 
         background: #f6d4c5;
@@ -257,23 +247,25 @@ p{
 #Features a:hover{
     color: white;
 }
-.section{
+.icon-wrap{
     background: #ffffff;
     border-radius: 10px;
-    margin-right: 1.5rem;
-    display: inline-block;
+    display: flex;
+    margin-right: 0;
     width: 150px;
     padding: 1.8rem 2.5rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-.section p{
+.icon-wrap .fa{
+    color:pink;
+    font-size: 40px; 
+}
+.icon-wrap p{
     font-size: 16px;
     text-align: center;
     font-weight: 400;
-    margin-top: 20px;
 } 
  /*card  */
  #Download{
