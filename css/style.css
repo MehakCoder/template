@@ -91,9 +91,7 @@ p{
 }
  #Menu li a:hover{ 
         background-color: white; 
-        border: 5px solid white; 
         text-decoration: none; 
-        height: 100px;
         display: flex;
         flex-direction: column;
         align-items: center;
