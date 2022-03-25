@@ -145,7 +145,6 @@ p{
     width: 100%;
     padding-top: 140px;
     padding-bottom: 160px;
-    overflow-x: hidden;
 }
 #banner:before{
     background: rgba(0,0,0,0.8);
@@ -791,7 +790,9 @@ min-height: 48px;
     font-family: 'DM Sans', sans-serif ;
 }
 /* Footer */
-
+@media screen and (max-width:991px) {
+    
+}
 
 
 
