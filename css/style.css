@@ -22,7 +22,7 @@ span{
 }
 p{
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 /* logobar */
@@ -250,8 +250,9 @@ p{
     color: black;
     text-decoration: none;
 }
-#Features a:hover{
-    color: white;
+#Features .btn:hover{
+   background:  #ffffff;
+   border-color: #ffffff;
 }
 #Features.icon-wrap{
     background: #ffffff;
