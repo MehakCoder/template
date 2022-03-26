@@ -719,15 +719,13 @@ p{
 .Tabel{
     padding-top: 90px;
     padding-bottom: 120px;
-    background-color: #ffffff;
-    
+    background-color: #ffffff;   
 }
 .form{
     background: #dce8eb;
     padding: 96px 64px;
     border-radius: 10px;
     width: 80%;
-    margin-left: 150px;
 }
 .form #Projects{
     text-align: left;
