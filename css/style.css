@@ -790,10 +790,50 @@ min-height: 48px;
     font-family: 'DM Sans', sans-serif ;
 }
 /* Footer */
-@media screen and (max-width:991px) {
-    
-}
+@media screen and (max-width:992px) {
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+    .media-container-row{
+        flex-wrap: nowrap;
+    }
+    img{
+        display: block;
+        width: 100%;
+    }
+    #card{
+        background-color: transparent;
+        border: none;
+    }
+    #Brand-image{
+          width: 100%;
+    }
+    #Team-image{
+        width: 100%;
+    }
+    .menu{
+        max-height: 93.5vh;
+        overflow: auto;
+    }
 
+}
+@media screen and (max-width:768px) {
+    .container-fluid {
+        padding-left: 32px;
+        padding-right: 32px;
+      }
+      .card-wrapper {
+        overflow: hidden;
+      }
+      .menu{
+          max-height: 80px;
+      }
+      .icon{
+        margin-right: 8px;
+      }
+        
+}
 
 
     
