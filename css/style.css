@@ -788,9 +788,32 @@ min-height: 48px;
     font-family: 'DM Sans', sans-serif ;
 }
 /* Footer */
+@media (min-width: 991px) {
+    .container-fulid{
+        flex-wrap: nowrap;
+    }
+    .Header{
+        flex-shrink: initial;
+        flex-basis: auto;
+        word-break: break-word;
+        padding-right: 32px;
+     }
+     #Iconbar{
+        padding-left: 0;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
 
+}
 
-    
+ @media (min-width:768px){
+     .container-fulid{
+         padding-left: 32px;
+         padding-right: 32px;
+     }
+   
+
+ }   
 
 
 
