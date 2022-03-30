@@ -25,7 +25,7 @@ p{
 
 /* logobar */
 
-#logobar{
+#Header{
     background-color: var(--baseColor);
     margin-left: 30px; 
     padding-top: 1.6px;
@@ -33,7 +33,7 @@ p{
     position: sticky;
    
 }
-#Header{
+#logobar{
     min-height: 70px;
     flex-shrink: 0;
     align-items: center;
