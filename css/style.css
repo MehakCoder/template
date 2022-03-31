@@ -21,17 +21,13 @@ p{
     font-size: 20px;
     line-height: 2;
 }
-
-
 /* logobar */
-
 #Header{
     background-color: var(--baseColor);
     margin-left: 30px; 
     padding-top: 1.6px;
     align-items: center;
-    position: sticky;
-   
+    position: sticky; 
 }
 #logobar{
     min-height: 70px;
@@ -49,7 +45,6 @@ p{
 #logobar a{
     margin-right: 10px;
 }
-
 #logobar .Brand{
     font-size: 30px;
     text-decoration: none;
