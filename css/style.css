@@ -788,7 +788,7 @@ min-height: 48px;
     font-family: 'DM Sans', sans-serif ;
 }
 /* Footer */
-@media (min-width: 991px) {
+/* @media (min-width: 991px) {
     .container-fulid{
         flex-wrap: nowrap;
     }
@@ -813,7 +813,7 @@ min-height: 48px;
      }
    
 
- }   
+ }    */
 
 
 
