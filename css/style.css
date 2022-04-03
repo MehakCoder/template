@@ -99,7 +99,6 @@ p{
     position: sticky; 
     padding: 0 20px;
 }
-
 #logo{
     font-size: 30px;
     text-decoration: none;
@@ -698,17 +697,6 @@ p{
 .form #Projects{
     text-align: left;
 }
-.form #Projects span{
-         color: #777777;
-         font-size: 17.6px;
-         line-height: 1.5;
-         font-weight: 400;
-}
-.form #Projects h2{
-         font-size: 49.6px;
-         margin-bottom: 60px;
-         font-weight: 500;
-}
 
 .form .form-row{
     font-size: large;
@@ -720,20 +708,9 @@ p{
     text-align: left;
     border-radius: 10px;
     margin-top: 10px;
-    height: 180px;
 }
 .from .from-control{
-height: 180px;
-min-height: 48px;
-}
-.button .btn{
-    background-color: black;
-    border-color: black;
-    text-align: right;
-    display: inline;
-    padding: 12px 28px;
-    min-height: 48px;
-    border-radius: 2px;
+  min-height: 48px;
 }
 /* Copyright */
 .Footer{
