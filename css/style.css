@@ -40,37 +40,22 @@ p{
     height: 1.5cm;
 }
 /* Menu */
-#MenuBar{
-    transition: none;
-    justify-content: flex;
-    z-index: 1;
-    min-height: 100px;
-    align-items: center;
-}
-
 #Menu{
-    margin-left: auto;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    flex-wrap: wrap;  
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 0; 
 }
 
  #Menu li{
-    font-weight: 500;
     font-size: 20px;
-    list-style: none;
-    padding-left: 15px;
-    margin-left: 15px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
  #Menu li a{
+    display: block;
     color: var(--textColor);
+    text-decoration: none;
+    padding: 35px 20px;
 }
  #Menu a:hover{ 
         background-color: white; 
