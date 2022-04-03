@@ -269,25 +269,10 @@ p{
     padding-bottom: 96px;
     background-color: #efefef;  
  }
- #Card{
-    background: #ffffff;
-    margin-top: 16px;
-    border-radius: 10px;
-    display: flex;
- }
  #App{
      text-align: left;
      padding: 48px 48px;
      position: relative;    
-}
-#App h2{
-      font-weight: 500;
-      font-size: 17px;
-      color: #777777;
-}
-#App h3{
-        font-weight: 800;
-        font-size: 60.8px;
 }
 #Mobile{
        text-align: right;
