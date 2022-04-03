@@ -22,39 +22,22 @@ p{
     line-height: 2;
 }
 /* logobar */
-#Header{
+#header{
     background-color: var(--baseColor);
-    margin-left: 30px; 
-    padding-top: 1.6px;
-    align-items: center;
     position: sticky; 
+    padding: 0 20px;
 }
-#logobar{
-    min-height: 70px;
-    flex-shrink: 0;
-    align-items: center;
-    margin-right: 0;
-    padding: 10px 0;
-    transition: all 0.3s;
-    word-break: break-word;
-    z-index: 1;
-}
- #logobar img{
-    height: 1.5cm;
-}
-#logobar a{
-    margin-right: 10px;
-}
-#logobar .Brand{
+
+#logo{
     font-size: 30px;
     text-decoration: none;
     color: var(--textColor);
+    display: inline-block;
+    margin-top: 21px;
 }
-#logobar .brand{
-    flex-wrap: nowrap;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+
+#logo img{
+    height: 1.5cm;
 }
 /* Menu */
 #MenuBar{
