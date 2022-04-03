@@ -23,7 +23,76 @@ p{
     font-weight: 400;
     line-height:1.5;
 }
+.Section-hd{
+    margin-bottom: 50px;
+}
 
+.Section-hd.center{
+    text-align: center;
+}
+
+.Section-hd h2{
+    font-size: 60.8px;
+    font-weight: 600;
+}
+
+.Section-hd span{
+    font-size: 17px;
+    font-weight: 500;
+    color: #777777;
+    margin-bottom: 8px;
+}
+
+.darkbg .Section-hd h2{
+    color: #fff;
+}
+
+.btn{
+    border: 1px solid #f6d4c5; 
+    background: #f6d4c5;
+    padding: 1rem 2.6rem;
+    font-weight: 600;
+    letter-spacing: 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-outline{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #eeefee;
+}
+.btn-outline:hover{
+    background: #f6d4c5;
+    border: 1px solid #f6d4c5;
+}
+
+.btndark{
+    color: #fff;
+    background: #232323;
+    border: 1px solid #232323;
+}
+
+.btndark:hover{
+    color: #fff;
+    background: #000;
+}
+
+.btndark-reverse{
+    color: #fff;
+    background: #232323;
+    border: 1px solid #232323;
+}
+
+.btndark-reverse:hover{
+    background: #f6d4c5;
+    border: 1px solid #f6d4c5;
+    color: #232323;
+}
 /* logobar */
 #header{
     background-color: var(--baseColor);
