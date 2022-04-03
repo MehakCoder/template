@@ -68,13 +68,12 @@ p{
 #icon .fa{
     color:black;
     font-size: 22.4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 50px;
     width: 50px;
+    line-height: 50px;
+    text-align: center;
     background: white;
-    margin: 0 4.8px;
+    margin: 0 3px;
     border-radius: 10px; 
     
 }
