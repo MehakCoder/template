@@ -122,47 +122,10 @@ p{
     font-weight: 100;
     line-height: 1.5;  
 }
-#soft a{
-    font-size: 16px;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 0px 20px;
-    border: 1px solid black;
-    color: var(--textColor);
-    text-align: center;
-    line-height: 1.5;
-    margin-bottom: 5px;
-}
 
 #soft .btn{
-    color: #bbb;
-    margin-left: -9.6px;
-    margin-right: -9.6px;
-    border-width: 2px;
     margin-top: 20px;
 }
-#soft .btn-pink{
-    padding: 1rem 2.6rem;
-    border-radius: 4px;
-    color: #1b2026 ;
-    background-color: #f7d9c4 ;
-}
- #soft .btn-learn{
-    padding: 1rem 2.6rem;
-    border-radius: 4px;
-    color: #eeefee;
-    border-color: #bbbbbb;
-}
-.btn-pink,.btn-learn{
-    font-weight: 600;
-    letter-spacing: 0px;
-    transition: all 0.3s ease-in-out;
-}
-#soft a:hover.btn-pink {
-    background-color: #eeefee;
-}
-
-
 /* Feature */
 .solution{
     padding-top: 96px;
