@@ -77,6 +77,7 @@ h3{
     border: 1px solid #f6d4c5;
 }
 
+
 .btndark{
     color: #fff;
     background: #232323;
@@ -554,20 +555,13 @@ h3{
     font-size: 20px;
     font-weight: bold;
 }
-.service #btn{
+#btn{
     margin: 10px 10px;
 }
-.service #btn a{
-    background: #232323;
-    border: 1px solid #232323;
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 4px;
-    border-width: 5px;
-    padding: 16px 20px;
-    margin: 10px 10px;
-    transition: all 0.3s ease-in-out;
+#btn :hover{
+        color: #eeefee;
+        background:black;
+        border: 1px solid #232323 ;
 }
 /* Testimonial */
 #testimonials{
