@@ -557,6 +557,9 @@ h3{
 #btn{
     margin: 10px 10px;
 }
+#btn a{
+    text-decoration: none;
+}
 #btn :hover{
         color: #eeefee;
         background:black;
