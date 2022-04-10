@@ -85,6 +85,7 @@ h3{
     font-weight: 600;
     letter-spacing: 0px;
     transition: all 0.3s ease-in-out;
+    float: right;
 }
 
 .btndark:hover{
@@ -698,7 +699,7 @@ h3{
     background: #dce8eb;
     padding: 96px 64px;
     border-radius: 10px;
-    width: 80%;
+    width: 95%;
 }
 .form #Projects{
     text-align: left;
