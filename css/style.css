@@ -284,6 +284,9 @@ h3{
      padding: 48px 48px;
      position: relative;    
 }
+#App h3{
+    line-height: 1.5;
+}
 #Mobile{
        text-align: right;
        margin-left: -66px;
@@ -404,12 +407,6 @@ h3{
 }
 #Join span{
        font-weight: 600;
-}
-
-#Join h3{
-    color: var(--textColor);
-    font-size: 50px;
-    font-weight: 800;
 }
 
 #System {
